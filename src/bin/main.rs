@@ -1,7 +1,10 @@
 use actix_web::{HttpServer, App};
-mod api;
-use crate::api::gcp::bigquery::bigquery_handler;
-use crate::api::gcp::vertexai::vertexai_handler;
+use rust_cloud_test::api::gcp::bigquery::bigquery_handler;
+use rust_cloud_test::api::gcp::vertexai::vertexai_handler;
+
+
+
+
 
 
 #[actix_web::main]
